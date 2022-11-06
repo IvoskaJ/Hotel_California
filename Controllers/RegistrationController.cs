@@ -13,5 +13,15 @@ namespace HotelCalifornia.Controllers
         {
             return View();
         }
+
+        public ActionResult RegistrationForm()
+        {
+            return View();
+        }
+
+        public ActionResult LoginPage()
+        {
+            return View();
+        }
     }
 }
